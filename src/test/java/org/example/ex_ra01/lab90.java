@@ -8,7 +8,7 @@ public class lab90 {
 
 
         // Rest assured Hello word Programme
-        // Given When Than Structure is followed gg
+        // Given When Than Structure is followed ggx
 
         RestAssured.given()
                 .baseUri("https://restful-booker.herokuapp.com")
