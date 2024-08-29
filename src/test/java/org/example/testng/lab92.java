@@ -1,6 +1,7 @@
 package org.example.testng;
 
 import io.restassured.RestAssured;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class lab92 {
@@ -30,3 +31,4 @@ public class lab92 {
 
     }
 }
+

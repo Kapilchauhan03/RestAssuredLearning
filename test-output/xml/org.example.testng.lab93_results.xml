@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="B:/Java Project/RestAssuredLearning/src/test/java/org/example/testng/lab92.java"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.062">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getRequest"
+                time="0.046"
+                classname="org.example.testng.lab93">
+            </testcase>
+            <testcase
+                name="getRequest3"
+                time="0.016"
+                classname="org.example.testng.lab93">
+            </testcase>
+            <testcase
+                name="getRequest2"
+                time="0.000"
+                classname="org.example.testng.lab93">
+            </testcase>
+</testsuite>
