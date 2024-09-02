@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestAssuredLearning"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.974">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getRequestPositive"
+                time="3.482"
+                classname="restfulbooker.CRUD.GET.lab96">
+            </testcase>
+            <testcase
+                name="getRequestnegative"
+                time="1.492"
+                classname="restfulbooker.CRUD.GET.lab96">
+            </testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestAssuredLearning"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.105">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testPutRequestNonBDD"
+                time="3.105"
+                classname="restfulbooker.CRUD.PUT.lab99">
+            </testcase>
+</testsuite>

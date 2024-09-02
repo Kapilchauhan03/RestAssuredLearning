@@ -2,6 +2,7 @@ package org.example.testng;
 
 import io.qameta.allure.Description;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class lab93 {
 
@@ -23,3 +24,9 @@ public class lab93 {
         System.out.println("TC3");
     }
 }
+
+
+
+
+
+

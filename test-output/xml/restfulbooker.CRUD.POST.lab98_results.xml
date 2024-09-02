@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="B:/Java Project/RestAssuredLearning/src/test/java/org/example/testng/lab92.java"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.374">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testnonBDDStylePOSTPositive"
+                time="1.693"
+                classname="restfulbooker.CRUD.POST.lab98">
+            </testcase>
+            <testcase
+                name="testnonBDDStylePOSTNegative"
+                time="2.681"
+                classname="restfulbooker.CRUD.POST.lab98">
+            </testcase>
+</testsuite>

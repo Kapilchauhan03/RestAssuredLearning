@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestAssuredLearning"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.164">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getRequestNotBDDStyle2"
+                time="0.938"
+                classname="ex_22062024.CRUD.GET.NoBDDStyle.lab95">
+            </testcase>
+            <testcase
+                name="getRequestNotBDDStyle"
+                time="3.226"
+                classname="ex_22062024.CRUD.GET.NoBDDStyle.lab95">
+            </testcase>
+</testsuite>
