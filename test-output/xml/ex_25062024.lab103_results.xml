@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.392">
+           time="0.334">
     <properties></properties>
 
 
 
             <testcase
-                name="testPUTRequestPositive"
-                time="1.392"
-                classname="restfulbooker.CRUD.FULL.lab102">
+                name="testfaker"
+                time="0.334"
+                classname="ex_25062024.lab103">
             </testcase>
 </testsuite>

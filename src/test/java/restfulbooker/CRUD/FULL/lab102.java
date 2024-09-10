@@ -2,12 +2,15 @@ package restfulbooker.CRUD.FULL;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class lab102 {
 
@@ -112,6 +115,35 @@ public class lab102 {
 
         String fullResponseJSONString = response.asString();
         System.out.println(fullResponseJSONString);
+
+        // Verify all the keys and value pairs in the response
+        // firstname, lastname, deposit, totla,. checkin
+
+
+        // 3 Ways You can verify the response
+
+        // 1. RA - Matchers
+        validatableResponse.body("firstname", Matchers.equalTo("Kapil"));
+        validatableResponse.body("lastname", Matchers.equalTo("joshh"));
+
+        //  2. TestNG Asserts -
+        //  Assert.assertEquals(firstNameResponse,"Pramod");
+//        String firstNameResponse = response.then().log().all().extract().path("firstname");
+//        Assert.assertEquals(firstNameResponse,"Kapil");
+
+        // 3 TestNG Assertion with JSON Path Lib
+        JsonPath jsonPath = new JsonPath(fullResponseJSONString);
+        String firstNameJSONPathExtracted = jsonPath.getString("firstname");
+        String lastNameJSONPathExtracted = jsonPath.getString("lastname");
+        Integer totalpriceJSONPathExtracted = jsonPath.getInt("totalprice");
+        String checkinDate = jsonPath.getString("bookingdates.checkin");
+
+
+        Assert.assertEquals(firstNameJSONPathExtracted,"Kapil");
+        Assert.assertEquals(lastNameJSONPathExtracted,"joshh");
+        Assert.assertEquals(totalpriceJSONPathExtracted,111);
+        Assert.assertEquals(checkinDate,"2024-08-15");
+        Assert.assertNotNull(totalpriceJSONPathExtracted);
 
     }
 

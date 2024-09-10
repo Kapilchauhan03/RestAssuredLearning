@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="ex_25062024.customlistner"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="RestAssuredLearning"
+        <classes>
+            <class name="   ex_25062024.lab104"</class>
+</classes>
+    </test>
+</suite>

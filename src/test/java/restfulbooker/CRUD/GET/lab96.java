@@ -26,3 +26,4 @@ public class lab96 {
         r.then().statusCode(404).log().all();
     }
 }
+
